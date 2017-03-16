@@ -1,3 +1,5 @@
+import java.util.Date;
+
 import java.util.Scanner;
 /**
  * @author zwaclaw
@@ -31,6 +33,11 @@ System.out.println("Please enter your name:");
 		
 		System.out.println("Hello " + vardas);
 
+
+ Date date = new Date();
+
+
+ System.out.println(date.toString());
 	
 
 }
